@@ -1,3 +1,35 @@
-h1 {
-  color: Green;
+header {
+  border-bottom: 1px solid black;
+  display: flex;
+  font-weight: bold;
+  align-items: center;
+  font-size: 14px;
+  font-family: Verdana;
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  z-index: 1;
+  background-color: white;
+}
+
+div.logo {
+  color: MediumAquamarine;
+  padding-left: 30px;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.logo img {
+  margin-right: 12px;
+  width: 70px;
+  height: 60px;
+}
+
+nav {
+  padding-right: 40px;
+}
+
+nav span {
+  padding: 20px 10px;
 }
